@@ -1,0 +1,17 @@
+body{background-color: #020e23;}
+h1{color: #4f7ef6; font-weight: bolder;} 
+h2{color: #4f7ef6; font-family: Arial, Helvetica;  font-weight: bolder} 
+h3{color: #4f9bf8; font-family: Arial, Helvetica;  font-weight: bolder}
+p{color: #50b8fb; font-family: Arial, Helvetica; font-weight: bolder}
+a{color: #4f7ef6;}
+#Granimgen {text-align: center;}
+#Pie{background-color: #020e23;}
+#genera{color: #50b8fb;}
+#armado{display: flex;}
+.Componentes{color: #50b8fb;}
+.Titulo1{color: #4f7ef6;}
+.Titulo2{color: #4f9bf8;}
+label{color: #50b8fb;}
+table{border-collapse:collapse;}
+table, tr{border: 1px solid #4f7ef6;}
+table, td{border: 1px solid #4f7ef6;}

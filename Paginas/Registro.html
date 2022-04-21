@@ -1,0 +1,441 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CYBOMATIC</title>
+    <link rel="stylesheet" href="../Estilos/estilo.css">
+</head>
+<body>
+    <div id="header">
+        <img src="../Imagenes/Logo_y_Marca.png" style="width: 220px; auto;" alt="">
+        <a href="../index.html">Inicio</a>
+        <a href="../Paginas/Hardware.html">Hardware</a>
+        <a href="../Paginas/Contacto.html">Contacto</a>
+        <a href="">Inicio de Sesión</a>
+        <a href="../Paginas/Registro.html">Registrarse</a>
+        <input type="search" name="search" placeholder="Barra de Busqueda">
+        <input type="submit" value="Buscar">
+        <br>
+    </div>
+    <div>
+        <h2>Ingrese sus Datos</h2>
+        <form action="">
+            <label for="nombre">Nombre*</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Ingrese su primer nombre" required autofocus><br><br>
+            <label for="apellido">Apellidos*</label>
+            <input type="text" name="apellido" id="apellido" placeholder="Ingrese sus apellidos" required><br><br>
+            <label for="Rut">Rut*</label>
+            <input type="text" name="Rut" id="Rut" placeholder="Ingrese su Rut" maxlength="12" required><br><br>
+            <label for="cumple">Fecha de Nacimiento</label>
+            <input type="date" name="cumple" id="cumple"><br><br>
+            <div id="genera">
+                <label for="genero">Genéro</label><br>
+                <input type="radio" name="genero" id="genero" value="1">Hombre<br>
+                <input type="radio" name="genero" id="genero" value="2">Mujer
+            </div><br>
+            <label for="email">E-mail*</label>
+            <input type="email" name="email" id="email" placeholder="Ingrese su e-mail" required><br><br>
+            <label for="celular">Celular*</label>
+            <input type="tel" name="celular" id="celular" placeholder="Ingresa su número celular" maxlength="15" value="+56" required><br><br>
+            <h3>Dirección</h3>
+            <label for="dirección">Dirección*</label>
+            <input type="text" name="dirección" id="dirección" placeholder="Dirección" required><br><br>
+            <label for="número">Número*</label>
+            <input type="text" name="número" id="número" placeholder="Número" required><br><br>
+            <label for="dep">Piso/Oficina/Depto</label>
+            <input type="text" name="dep" id="dep" placeholder="Descripción de la dirección (ej.depto,torre)"><br><br>
+            <div>
+             <label for="comuna">Comuna</label>
+             <select name="comuna" id="comuna">
+                <option value="">AISÉN</option>
+                <option value="">ALGARROBO</option>
+                <option value="">ALHUÉ</option>
+                <option value="">ALTO BIOBÍO</option>
+                <option value="">ALTO DEL CARMEN</option>
+                <option value="">ALTO HOSPICIO</option>
+                <option value="">ANCUD</option>
+                <option value="">ANDACOLLO</option>
+                <option value="">ANGOL</option>
+                <option value="">ANTOFAGASTA</option>
+                <option value="">ANTUCO</option>
+                <option value="">ANTÁRTICA</option>
+                <option value="">ARAUCO</option>
+                <option value="">ARICA</option>
+                <option value="">BUIN</option>
+                <option value="">BULNES</option>
+                <option value="">CABILDO</option>
+                <option value="">CABO DE HORNOS</option>
+                <option value="">CABRERO</option>
+                <option value="">CALAMA</option>
+                <option value="">CALBUCO</option>
+                <option value="">CALDERA</option>
+                <option value="">CALERA</option>
+                <option value="">CALERA DE TANGO</option>
+                <option value="">CALLE LARGA</option>
+                <option value="">CAMARONES</option>
+                <option value="">CAMIÑA</option>
+                <option value="">CANELA</option>
+                <option value="">CARAHUE</option>
+                <option value="">CARTAGENA</option>
+                <option value="">CASABLANCA</option>
+                <option value="">CASTRO</option>
+                <option value="">CATEMU</option>
+                <option value="">CAUQUENES</option>
+                <option value="">CAÑETE</option>
+                <option value="">CERRILLOS</option>
+                <option value="">CERRO NAVIA</option>
+                <option value="">CHAITÉN</option>
+                <option value="">CHANCO</option>
+                <option value="">CHAÑARAL</option>
+                <option value="">CHIGUAYANTE</option>
+                <option value="">CHILE CHICO</option>
+                <option value="">CHILLÁN</option>
+                <option value="">CHILLÁN VIEJO</option>
+                <option value="">CHIMBARONGO</option>
+                <option value="">CHOLCHOL</option>
+                <option value="">CHONCHI</option>
+                <option value="">CHÉPICA</option>
+                <option value="">CISNES</option>
+                <option value="">COBQUECURA</option>
+                <option value="">COCHAMÓ</option>
+                <option value="">COCHRANE</option>
+                <option value="">CODEGUA</option>
+                <option value="">COELEMU</option>
+                <option value="">COIHAIQUE</option>
+                <option value="">COIHUECO</option>
+                <option value="">COINCO</option>
+                <option value="">COLBÚN</option>
+                <option value="">COLCHANE</option>
+                <option value="">COLINA</option>
+                <option value="">COLLIPULLI</option>
+                <option value="">COLTAUCO</option>
+                <option value="">COMBARBALÁ</option>
+                <option value="">CONCEPCIÓN</option>
+                <option value="">CONCHALÍ</option>
+                <option value="">CONCÓN</option>
+                <option value="">CONSTITUCIÓN</option>
+                <option value="">CONTULMO</option>
+                <option value="">COPIAPÓ</option>
+                <option value="">COQUIMBO</option>
+                <option value="">CORONEL</option>
+                <option value="">CORRAL</option>
+                <option value="">CUNCO</option>
+                <option value="">CURACAUTÍN</option>
+                <option value="">CURACAVÍ</option>
+                <option value="">CURACO DE VÉLEZ</option>
+                <option value="">CURANILAHUE</option>
+                <option value="">CURARREHUE</option>
+                <option value="">CUREPTO</option>
+                <option value="">CURICÓ</option>
+                <option value="">DALCAHUE</option>
+                <option value="">DIEGO DE ALMAGRO</option>
+                <option value="">DOÑIHUE</option>
+                <option value="">EL BOSQUE</option>
+                <option value="">EL CARMEN</option>
+                <option value="">EL MONTE</option>
+                <option value="">EL QUISCO</option>
+                <option value="">EL TABO</option>
+                <option value="">EMPEDRADO</option>
+                <option value="">ERCILLA</option>
+                <option value="">ESTACIÓN CENTRAL</option>
+                <option value="">FLORIDA</option>
+                <option value="">FREIRE</option>
+                <option value="">FREIRINA</option>
+                <option value="">FRESIA</option>
+                <option value="">FRUTILLAR</option>
+                <option value="">FUTALEUFÚ</option>
+                <option value="">FUTRONO</option>
+                <option value="">GALVARINO</option>
+                <option value="">GENERAL LAGOS</option>
+                <option value="">GORBEA</option>
+                <option value="">GRANEROS</option>
+                <option value="">GUAITECAS</option>
+                <option value="">HIJUELAS</option>
+                <option value="">HUALAIHUÉ</option>
+                <option value="">HUALAÑÉ</option>
+                <option value="">HUALPÉN</option>
+                <option value="">HUALQUI</option>
+                <option value="">HUARA</option>
+                <option value="">HUASCO</option>
+                <option value="">HUECHURABA</option>
+                <option value="">ILLAPEL</option>
+                <option value="">INDEPENDENCIA</option>
+                <option value="">IQUIQUE</option>
+                <option value="">ISLA DE MAIPO</option>
+                <option value="">ISLA DE PASCUA</option>
+                <option value="">JUAN FERNÁNDEZ</option>
+                <option value="">LA CISTERNA</option>
+                <option value="">LA CRUZ</option>
+                <option value="">LA ESTRELLA</option>
+                <option value="">LA FLORIDA</option>
+                <option value="">LA GRANJA</option>
+                <option value="">LA HIGUERA</option>
+                <option value="">LA LIGUA</option>
+                <option value="">LA PINTANA</option>
+                <option value="">LA REINA</option>
+                <option value="">LA SERENA</option>
+                <option value="">LA UNIÓN</option>
+                <option value="">LAGO RANCO</option>
+                <option value="">LAGO VERDE</option>
+                <option value="">LAGUNA BLANCA</option>
+                <option value="">LAJA</option>
+                <option value="">LAMPA</option>
+                <option value="">LANCO</option>
+                <option value="">LAS CABRAS</option>
+                <option value="">LAS CONDES</option>
+                <option value="">LAUTARO</option>
+                <option value="">LEBU</option>
+                <option value="">LICANTÉN</option>
+                <option value="">LIMACHE</option>
+                <option value="">LINARES</option>
+                <option value="">LITUECHE</option>
+                <option value="">LLAILLAY</option>
+                <option value="">LLANQUIHUE</option>
+                <option value="">LO BARNECHEA</option>
+                <option value="">LO ESPEJO</option>
+                <option value="">LO PRADO</option>
+                <option value="">LOLOL</option>
+                <option value="">LONCOCHE</option>
+                <option value="">LONGAVÍ</option>
+                <option value="">LONQUIMAY</option>
+                <option value="">LOS ANDES</option>
+                <option value="">LOS LAGOS</option>
+                <option value="">LOS MUERMOS</option>
+                <option value="">LOS SAUCES</option>
+                <option value="">LOS VILOS</option>
+                <option value="">LOS ÁLAMOS</option>
+                <option value="">LOS ÁNGELES</option>
+                <option value="">LOTA</option>
+                <option value="">LUMACO</option>
+                <option value="">MACHALÍ</option>
+                <option value="">MACUL</option>
+                <option value="">MAIPÚ</option>
+                <option value="">MALLOA</option>
+                <option value="">MARCHIHUE</option>
+                <option value="">MARIQUINA</option>
+                <option value="">MARÍA ELENA</option>
+                <option value="">MARÍA PINTO</option>
+                <option value="">MAULE</option>
+                <option value="">MAULLÍN</option>
+                <option value="">MEJILLONES</option>
+                <option value="">MELIPEUCO</option>
+                <option value="">MELIPILLA</option>
+                <option value="">MOLINA</option>
+                <option value="">MONTE PATRIA</option>
+                <option value="">MOSTAZAL</option>
+                <option value="">MULCHÉN</option>
+                <option value="">MÁFIL</option>
+                <option value="">NACIMIENTO</option>
+                <option value="">NANCAGUA</option>
+                <option value="">NATALES</option>
+                <option value="">NAVIDAD</option>
+                <option value="">NEGRETE</option>
+                <option value="">NINHUE</option>
+                <option value="">NOGALES</option>
+                <option value="">NUEVA IMPERIAL</option>
+                <option value="">OLIVAR</option>
+                <option value="">OLLAGÜE</option>
+                <option value="">OLMUÉ</option>
+                <option value="">OSORNO</option>
+                <option value="">OVALLE</option>
+                <option value="">O\'HIGGINS</option>
+                <option value="">PADRE HURTADO</option>
+                <option value="">PADRE LAS CASAS</option>
+                <option value="">PAIHUANO</option>
+                <option value="">PAILLACO</option>
+                <option value="">PAINE</option>
+                <option value="">PALENA</option>
+                <option value="">PALMILLA</option>
+                <option value="">PANGUIPULLI</option>
+                <option value="">PANQUEHUE</option>
+                <option value="">PAPUDO</option>
+                <option value="">PAREDONES</option>
+                <option value="">PARRAL</option>
+                <option value="">PEDRO AGUIRRE CERDA</option>
+                <option value="">PELARCO</option>
+                <option value="">PELLUHUE</option>
+                <option value="">PEMUCO</option>
+                <option value="">PENCAHUE</option>
+                <option value="">PENCO</option>
+                <option value="">PERALILLO</option>
+                <option value="">PERQUENCO</option>
+                <option value="">PETORCA</option>
+                <option value="">PEUMO</option>
+                <option value="">PEÑAFLOR</option>
+                <option value="">PEÑALOLÉN</option>
+                <option value="">PICA</option>
+                <option value="">PICHIDEGUA</option>
+                <option value="">PICHILEMU</option>
+                <option value="">PINTO</option>
+                <option value="">PIRQUE</option>
+                <option value="">PITRUFQUÉN</option>
+                <option value="">PLACILLA</option>
+                <option value="">PORTEZUELO</option>
+                <option value="">PORVENIR</option>
+                <option value="">POZO ALMONTE</option>
+                <option value="">PRIMAVERA</option>
+                <option value="">PROVIDENCIA</option>
+                <option value="">PUCHUNCAVÍ</option>
+                <option value="">PUCÓN</option>
+                <option value="">PUDAHUEL</option>
+                <option value="">PUENTE ALTO</option>
+                <option value="">PUERTO MONTT</option>
+                <option value="">PUERTO OCTAY</option>
+                <option value="">PUERTO VARAS</option>
+                <option value="">PUMANQUE</option>
+                <option value="">PUNITAQUI</option>
+                <option value="">PUNTA ARENAS</option>
+                <option value="">PUQUELDÓN</option>
+                <option value="">PURRANQUE</option>
+                <option value="">PURÉN</option>
+                <option value="">PUTAENDO</option>
+                <option value="">PUTRE</option>
+                <option value="">PUYEHUE</option>
+                <option value="">QUEILÉN</option>
+                <option value="">QUELLÓN</option>
+                <option value="">QUEMCHI</option>
+                <option value="">QUILACO</option>
+                <option value="">QUILICURA</option>
+                <option value="">QUILLECO</option>
+                <option value="">QUILLOTA</option>
+                <option value="">QUILLÓN</option>
+                <option value="">QUILPUÉ</option>
+                <option value="">QUINCHAO</option>
+                <option value="">QUINTA DE TILCOCO</option>
+                <option value="">QUINTA NORMAL</option>
+                <option value="">QUINTERO</option>
+                <option value="">QUIRIHUE</option>
+                <option value="">RANCAGUA</option>
+                <option value="">RANQUIL</option>
+                <option value="">RAUCO</option>
+                <option value="">RECOLETA</option>
+                <option value="">RENAICO</option>
+                <option value="">RENCA</option>
+                <option value="">RENGO</option>
+                <option value="">REQUÍNOA</option>
+                <option value="">RETIRO</option>
+                <option value="">RINCONADA</option>
+                <option value="">RIO HURTADO</option>
+                <option value="">ROMERAL</option>
+                <option value="">RÍO BUENO</option>
+                <option value="">RÍO CLARO</option>
+                <option value="">RÍO IBÁÑEZ</option>
+                <option value="">RÍO NEGRO</option>
+                <option value="">RÍO VERDE</option>
+                <option value="">SAAVEDRA</option>
+                <option value="">SAGRADA FAMILIA</option>
+                <option value="">SALAMANCA</option>
+                <option value="">SAN ANTONIO</option>
+                <option value="">SAN BERNARDO</option>
+                <option value="">SAN CARLOS</option>
+                <option value="">SAN CLEMENTE</option>
+                <option value="">SAN ESTEBAN</option>
+                <option value="">SAN FABIÁN</option>
+                <option value="">SAN FELIPE</option>
+                <option value="">SAN FERNANDO</option>
+                <option value="">SAN GREGORIO</option>
+                <option value="">SAN IGNACIO</option>
+                <option value="">SAN JAVIER</option>
+                <option value="">SAN JOAQUÍN</option>
+                <option value="">SAN JOSÉ MAIPO</option>
+                <option value="">SAN JUAN DE LA COSTA</option>
+                <option value="">SAN MIGUEL</option>
+                <option value="">SAN NICOLÁS</option>
+                <option value="">SAN PABLO</option>
+                <option value="">SAN PEDRO</option>
+                <option value="">SAN PEDRO ATACAMA</option>
+                <option value="">SAN PEDRO DE LA PAZ</option>
+                <option value="">SAN RAFAEL</option>
+                <option value="">SAN RAMÓN</option>
+                <option value="">SAN ROSENDO</option>
+                <option value="">SAN VICENTE</option>
+                <option value="">SANTA BÁRBARA</option>
+                <option value="">SANTA CRUZ</option>
+                <option value="">SANTA JUANA</option>
+                <option value="">SANTA MARÍA</option>
+                <option value="">SANTIAGO</option>
+                <option value="">SANTIAGO NORTE</option>
+                <option value="">SANTIAGO OESTE</option>
+                <option value="">SANTIAGO SUR</option>
+                <option value="">SANTO DOMINGO</option>
+                <option value="">SIERRA GORDA</option>
+                <option value="">TALAGANTE</option>
+                <option value="">TALCA</option>
+                <option value="">TALCAHUANO</option>
+                <option value="">TALTAL</option>
+                <option value="">TEMUCO</option>
+                <option value="">TENO</option>
+                <option value="">TEODORO SCHMIDT</option>
+                <option value="">TIERRA AMARILLA</option>
+                <option value="">TILTIL</option>
+                <option value="">TIMAUKEL</option>
+                <option value="">TIRÚA</option>
+                <option value="">TOCOPILLA</option>
+                <option value="">TOLTÉN</option>
+                <option value="">TOMÉ</option>
+                <option value="">TORRES DEL PAINE</option>
+                <option value="">TORTEL</option>
+                <option value="">TRAIGUÉN</option>
+                <option value="">TREGUACO</option>
+                <option value="">TUCAPEL</option>
+                <option value="">VALDIVIA</option>
+                <option value="">VALLENAR</option>
+                <option value="">VALPARAÍSO</option>
+                <option value="">VICHUQUÉN</option>
+                <option value="">VICTORIA</option>
+                <option value="">VICUÑA</option>
+                <option value="">VILCÚN</option>
+                <option value="">VILLA ALEGRE</option>
+                <option value="">VILLA ALEMANA</option>
+                <option value="">VILLARRICA</option>
+                <option value="">VITACURA</option>
+                <option value="">VIÑA DEL MAR</option>
+                <option value="">YERBAS BUENAS</option>
+                <option value="">YUMBEL</option>
+                <option value="">YUNGAY</option>
+                <option value="">ZAPALLAR</option>
+                <option value="">ÑIQUÉN</option>
+                <option value="">ÑUÑOA</option>
+                
+             </select>
+            </div><br>
+            <div>
+             <label for="region">Región</label>
+             <select name="region" id="region">
+                <option value="">Tarapacá</option>
+                <option value="">Antofagasta</option>
+                <option value="">Atacama</option>
+                <option value="">Coquimbo</option>
+                <option value="">Valparaíso</option>
+                <option value="">Libertador General Bernardo O’Higgins</option>
+                <option value="">Maule</option>
+                <option value="">Biobío</option>
+                <option value="">La Araucanía</option>
+                <option value="">Los Lagos</option>
+                <option value="">Región Aysén del General Carlos Ibáñez del Campo</option>
+                <option value="">Magallanes y Antártica Chilena</option>
+                <option value="">Región Metropolitana de Santiago</option>
+                <option value="">Los Ríos</option>
+                <option value="">Arica y Parinacota</option>
+                <option value="">Ñuble</option>
+             </select>
+            </div><br>
+            <h3>Contraseña</h3>
+            <label for="pasw">Contraseña</label><br>
+            <input type="password" name="pasw" id="pasw" minlength="8" required><br><br>
+            <label for="paw1">Cofirme su Contraseña</label><br>
+            <input type="password" name="paw1" id="pasw1" minlength="8" required><br><br>
+            <label for="noti">Desa recibir notificaciones</label>
+            <input type="checkbox" name="noti" id="noti"><br><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+    <div id="Pie">
+        <footer>
+
+        </footer>
+    </div>
+</body>
+
+</html>
