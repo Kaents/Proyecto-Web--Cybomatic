@@ -1,11 +1,18 @@
 <html lang="en">
+  <!--Nota personal: Personalizar el footer, expandir un poco la separación de divs, adecuar un mejor estilo de letras y comenzar a personalizar las otras paginas-->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CYBOMATIC</title>
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--CCS Propio-->
     <link rel="stylesheet" href="Estilos/estilo.css">
-</head>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  </head>
 <!--
 Colores:
 #020e23
@@ -17,132 +24,293 @@ Colores:
 <body>
     <div>
      <div id="header">
-         <img src="Imagenes/Logo_y_Marca.png" style="width: 220px; auto;" alt="">
-         <a href="index.html">Inicio</a>
-         <a href="Paginas/Hardware.html">Hardware</a>
-         <a href="Paginas/Contacto.html">Contacto</a>
-         <a href="">Inicio de Sesión</a>
-         <a href="Paginas/Registro.html">Registrarse</a>
-         <input type="search" name="search" placeholder="Barra de Busqueda">
-         <input type="submit" value="Buscar">
-         <br>
+      <nav class="navbar navbar-expand-lg" style="background-color: #020e23;">
+        <div class="container-fluid">
+          <img src="Imagenes/Logo_y_Marca.png" width="14%" alt="">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Hardware
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Procesadores</a></li>
+                  <li><a class="dropdown-item" href="#">Tarjetas Graficas</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Refrigeración custom</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Paginas/Contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Paginas/Registro.html">Registrarse</a>
+              </li>
+              <li class="nav-item">
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#inicios">
+                  Inicio de Sesión
+                </button>
+              </li>
+            </ul>
+            <!--modal -->
+            <div class="modal fade" id="inicios" tabindex="-1" aria-labelledby="iniciosLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="sesion">Inicio de Sesión</h5>
+                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="input-group flex-nowrap">
+                      <span class="input-group-text" id="addon-wrapping">Usuario</span>
+                      <input type="text" class="form-control" placeholder="" aria-label="Username" aria-describedby="addon-wrapping" required autofocus>
+                    </div>
+                    <br>
+                    <div class="input-group flex-nowrap">
+                      <span class="input-group-text" id="addon-wrapping">Contraseña</span>
+                      <input type="text" class="form-control" placeholder="" aria-label="Username" aria-describedby="addon-wrapping" required>
+                    </div>
+                    <br>
+                    <a class="nav-linkrecor" href="">Olvide mi contraseña</a>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-primary">Entrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+             <form class="d-flex">
+               <input class="form-control me-2" type="search" placeholder="Barra de Busqueda" aria-label="Search">
+               <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!--end modal-->
      </div>
-     <div id="Granimgen">
+     <div class="container-fluid" id="Granimgen">
          <h1>Su Setup Ideal</h1>
          <br>
-         <img src="Imagenes/setup-gaming-2267149.jpg" alt="">
+         <img src="Imagenes/setup-gaming-2267149.jpg" width="70%" alt="">
      </div>
+     <br>
      <div id="Servicio">
         <h3>Servicio</h3>
-        <p>Nos dedicamos a dar servicio de cotización y armado de equipos domesteticos; abarcando ampliamente el ambito del Gamer y el Streamanig, como tambien el hambito profesional dieñando equipos para diseño gráfico, edición, arquitectectura, etc. Nos encargamos de buscar activamente los mejores componentes, como también al mejor precio para que se adapten a sus necesidades, gustos y presupuesto, ademas de encargarmos del armado completo y la configuración necesaria para que usted al recibirlo solo deba conectar y disfrutar de la experiencia de su nueva adquisición.
-        </p>
+        <p class="coloro">Nos dedicamos a dar servicio de cotización y armado de equipos domesteticos; abarcando ampliamente el ambito del Gamer y el Streamanig, como tambien el hambito profesional dieñando equipos para diseño gráfico, edición, arquitectectura, etc. Nos encargamos de buscar activamente los mejores componentes, como también al mejor precio para que se adapten a sus necesidades, gustos y presupuesto, ademas de encargarmos del armado completo y la configuración necesaria para que usted al recibirlo solo deba conectar y disfrutar de la experiencia de su nueva adquisición.</p>
      </div>    
-     <div id="3img">
-         <h3>Algunos Equipos Armados</h3>
-         <div id="armado">
-           <div>
-             <img src="Imagenes/IMG_20220106_221607434_HDR.jpg" style="width: 400px; auto;" alt="">
-             <br>
-             <table>
-            <tr>
-             <th scope="col" class="Titulo1">Componentes</th>
-             <th class="Titulo1">Modelo</th>
-            </tr>
-            <tr>
-              <th class="Titulo2">Procesador</th>
-              <td class="Componentes">I5-12600K</td>
-            </tr>
-            <tr>
-              <th class="Titulo2">Gráficas</th>
-              <td class="Componentes">RTX 3060</td>
-            </tr>
-            <tr>
-              <th class="Titulo2">Disipador</th>
-              <td class="Componentes">MasterLiquid ML240</td>
-            </tr>
-            <tr>
-              <th class="Titulo2">Ram</th>
-              <td class="Componentes">16Gg Kinsgton Fury DDR5</td>
-            </tr>
-            <tr>
-              <th class="Titulo2">Placa Madre</th>
-              <td class="Componentes">Msi Z-690 PRO</td>
-            </tr>
-            <tr>
-              <th class="Titulo2">PSU</th>
-              <td class="Componentes">ColorMaster 850w 80plus Gold</td>
-            </tr>
-            <tr>
-              <th class="Titulo2">Gabinete</th>
-              <td class="Componentes">Gabinete ColerMaster E-ATX</td>
-            </tr>  
-             </table>
-             </div> 
-           <br>
-           <div>
-             <img src="Imagenes/IMG_20211215_230234502_HDR2.jpg" style="width: 400px; auto;" alt="">
-             <br>
-             <table>
-            <tr>
-             <th scope="col" class="Titulo1">Componentes</th>
-             <th class="Titulo1">Modelo</th>
-            </tr>
-            <tr>
-             <th class="Titulo2">Procesador</th>
-             <td class="Componentes">I7-10700K</td>
-            </tr>
-            <tr>
-             <th class="Titulo2">Gráficas</th>
-             <td class="Componentes">RTX 3070</td>
-            </tr>
-            <tr>
-             <th class="Titulo2">Disipador</th>
-             <td class="Componentes">ColerMaster ML360</td>
-            </tr>
-            <tr>
-             <th class="Titulo2">Ram</th>
-             <td class="Componentes">32Gg Basilisk DDR4</td>
-            </tr>
-            <tr>
-             <th class="Titulo2">Placa Madre</th>
-             <td class="Componentes">Asus Z-590</td>
-            </tr>
-            <tr>
-             <th class="Titulo2">PSU</th>
-             <td class="Componentes">Cougar 750w 80plus Bronze</td>
-            </tr>
-            <tr>
-             <th class="Titulo2">Gabinete</th>
-             <td class="Componentes">Gabinete Nzxt E-ATX</td>
-            </tr>  
-             </table>
-           </div>
-         </div>
+     <div id="3img" class="container-fluid">
+      <h3>Equipos Armados y Cotizados</h3>
+      <div id="armado">
+        <div class="card-group">
+          <div class="card mx-5 shadow-lg" style="width: 50rem; text-align: -webkit-center;">
+            <img src="Imagenes/IMG_20220106_221607434_HDR.jpg" class="card-img-top" alt="...">
+            <div class="card-body" style="background-color:  #020e23;">
+              <h5 class="card-title">Tabla de Componentes</h5>
+              <table>
+                <tr>
+                 <th scope="col" class="Titulo1">Componentes</th>
+                 <th class="Titulo1">Modelo</th>
+                </tr>
+                <tr>
+                  <th class="Titulo2">Procesador</th>
+                  <td class="Componentes">I5-12600K</td>
+                </tr>
+                <tr>
+                  <th class="Titulo2">Gráficas</th>
+                  <td class="Componentes">RTX 3060</td>
+                </tr>
+                <tr>
+                  <th class="Titulo2">Disipador</th>
+                  <td class="Componentes">MasterLiquid ML240</td>
+                </tr>
+                <tr>
+                  <th class="Titulo2">Ram</th>
+                  <td class="Componentes">16Gg Kinsgton Fury DDR5</td>
+                </tr>
+                <tr>
+                  <th class="Titulo2">Placa Madre</th>
+                  <td class="Componentes">Msi Z-690 PRO</td>
+                </tr>
+                <tr>
+                  <th class="Titulo2">PSU</th>
+                  <td class="Componentes">ColorMaster 850w 80plus Gold</td>
+                </tr>
+                <tr>
+                  <th class="Titulo2">Gabinete</th>
+                  <td class="Componentes">Gabinete ColerMaster E-ATX</td>
+                </tr>
+                <tr>
+                  <th class="Titulo2">Costo</th>
+                  <td class="Componentes">$1.950.000</td>
+                </tr>  
+              </table>
+            </div>
+          </div>
+          <div class="card mx-5 shadow-lg" style="width: 50rem; padding-left: 1px; text-align: -webkit-center;">
+            <img src="Imagenes/IMG_20211215_230234502_HDR2.jpg" class="card-img-top" alt="...">
+            <div class="card-body" style="background-color:  #020e23;">
+              <h5 class="card-title">Tabla de componentes</h5>
+              <table>
+                <tr>
+                 <th scope="col" class="Titulo1">Componentes</th>
+                 <th class="Titulo1">Modelo</th>
+                </tr>
+                <tr>
+                 <th class="Titulo2">Procesador</th>
+                 <td class="Componentes">I7-10700K</td>
+                </tr>
+                <tr>
+                 <th class="Titulo2">Gráficas</th>
+                 <td class="Componentes">RTX 3070</td>
+                </tr>
+                <tr>
+                 <th class="Titulo2">Disipador</th>
+                 <td class="Componentes">ColerMaster ML360</td>
+                </tr>
+                <tr>
+                 <th class="Titulo2">Ram</th>
+                 <td class="Componentes">32Gg Basilisk DDR4</td>
+                </tr>
+                <tr>
+                 <th class="Titulo2">Placa Madre</th>
+                 <td class="Componentes">Asus Z-590</td>
+                </tr>
+                <tr>
+                 <th class="Titulo2">PSU</th>
+                 <td class="Componentes">Cougar 750w 80plus Bronze</td>
+                </tr>
+                <tr>
+                 <th class="Titulo2">Gabinete</th>
+                 <td class="Componentes">Gabinete Nzxt E-ATX</td>
+                </tr>
+                <tr>
+                  <th class="Titulo2">Costo</th>
+                  <td class="Componentes">$2.400.000</td>
+                </tr>    
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>  
      </div>
-     <div>
+     <br>
+     <div class="container" id="porce">
        <h3>El Procesador</h3>
-       <p>Escoger un procesador para su equipo es esencial para el uso que quiera darle, sobre todo para los requerimientos que en el ambito gamer y profesional exigen en la actualidad. Lo adecuado para la serie gaming serian las series "5" de las 2 marcas de procesadores actuales (Intel y AMD) especificamente del año 2020 en adelante, sin embargo, para tareas profesionales y más exigente lo ideal para comenzar serian las series 7, pero para muchas tareas es posible que nesecite de mayor poder de calculo llevando la decición de obtar por procesadores mucho más potentes.</p>
+       <p class="coloro">Escoger un procesador para su equipo es esencial para el uso que quiera darle, sobre todo para los requerimientos que en el ambito gamer y profesional exigen en la actualidad. Lo adecuado para la serie gaming serian las series "5" de las 2 marcas de procesadores actuales (Intel y AMD) especificamente del año 2020 en adelante, sin embargo, para tareas profesionales y más exigente lo ideal para comenzar serian las series 7, pero para muchas tareas es posible que nesecite de mayor poder de calculo llevando la decición de obtar por procesadores mucho más potentes.</p>
        <a href=""></a>
-       <img src="" style="width: 200px auto;" alt="">
-       <img src="" style="width: 200px auto;" alt="">
-     </div>
-     <div>
+       <div id="proce" style="text-align: center;">
+         <div>
+          <div class="container">
+            <div class="row align-items-start">
+              <div class="col">
+                <H4>Procesadores Ryzen</H4>
+                <img src="Imagenes/ryzen.jpg" style="width: 270px; auto;" alt="">
+                <p class="coloro">Los Ryzen son una opcion correcta para todo proposito sobre todo por su alta capacidad de nucleos en la alta gama, como buenas frecuencias en la gama media enespecial en la serie 3000 y 5000 que en los ultimos años han sido lo mejor para crea PC tanto gaming como profesionales, y hasta ahora siguen siendo una opcion my buena.</p>
+              </div>
+              <div class="col">
+                <h4>Procesadores Intel Core</h4>
+                <img src="Imagenes/logo-intel.png" style="width: 200px auto;" alt="">
+                <p class="coloro">Los I-core estuvieron durante un tiempo por debajo de Ryzen lo que no significa que su desempeño fuera estrictamente inferior, aparte que a iferencia de AMD Intel ofrece procesadores de gamma baja y de entrada para personas que no requieran o no quieran gastar demasiado en un Pc, siendo lo recomendable comenzar con la 10° generación en adelante.</p>
+              </div>
+            </div>
+          </div>  
+        </div>          
+       </div>
+      </div>
+      <br>
+      <div class="container" id="graf">
        <h3>La Tarjeta Gráfica</h3>
-       <p></p>
+       <p class="coloro">Si obta por un computador de caracteristicas gamer y/o profesionales la tarjeta grafica ocupa un papel fundamental en el manejo de lo graficos proyectados por el computador siendo clave para visiualizar texturas de alta complejidad relacionado a la resolucion a la cual obte por visualizarla, en estos tiempos existen 2 marcas competidoras Nvidia y AMD al cual en unos meses más se sumara Intel </p>
        <a href=""></a>
-       <img src="" alt="">
-       <img src="" alt="">
-     </div>
-     <div>
+        <div id="carouselExampleCaptions" class="carousel slide px-5" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="Imagenes/NVIDIA-retira-RTX-3080-Founders-Edition-e1602576115741.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="colorw">Nvidea RTX</h5>
+                <p>Nvidea hasta el dia de hoy sigue estando en el tope de cracion de grafica y tiene un prestigio incleible y sus graficas no son la excepcion la serie RTX 3000 a sido sobre todo una explocion no solo en poder bruto sino en tecnologia, como, el Ray Traicing, el DLSS y en especial la creacion de drivers que optimizan todo teniendo drivers no solo para gamer tambien drivers dedicado a profesionales, y codes especiales que hacen a las graficas nvidea la mejor opcion a escoger para un numero muy variado de personas.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="Imagenes/Radeon-RX-7900-XT-1024x576.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="colorw">AMD Radeon</h5>
+                <p>AMD ha estado en el mercado por años sus graficas han sido una buena opcion a nvidia debido a que eran normalmente más baratas por un desempeño similar, hoy estan a la par en precio con mucho poder bruto (igualando a Nvidea en algunos casos) lo que le hace perfecto para el sector gamer, workstation IA, arquitectectura, pero se queda atras como ayuda para edicion, reescalado, Ray Tracing y sectores dedicados a la edicion de todo tipo.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="Imagenes/intel-arc-limited-edition.webp" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="colorw">Intel ARC</h5>
+                <p>Las graficas de Intel aun no salen como tal al publico pero se ha confirmado por la compañia que ahora en Q2 (segundo trimestre) de este año saldran a la venta, hasta solo se teoriza que la menos potente podria estar al nivel de una GTX 1650 y la de mayor performance cercad de una RTX 3070.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+         </div>
+        </div>
+      </div>
+      <br>
+     <div class="container" id="liquidas">
        <h3>Su Refrigeración Custom</h3>
-       <p></p>
+       <p class="coloro">Tambien puede obtar por una refrigeración custom que a diferencia de los componentes mencionados más arriba es principalmente extetico y no conlleva una mejora o un paso obligado en la mayoria de los casos, aparte de que el costo por su montaje es elevado, aunque su ventajas principales radican en no solo ser personalizadas, sino que tambien tendra una capacidad de refrigeracion mayor a lo que tendria normalmente en una disipacion tradicional superando tambien a las liquidas "All in One"</p>
        <a href=""></a>
-       <img src="" alt="">
-       <img src="" alt="">
-     </div>
-    </div>
-    <div id="Pie">
+       <!--Acordion (buscar forma de cambiar colo)-->
+       <div class="accordion accordion-flush" id="accordionFlushExample" style="text-align-last: center;">
+          <div class="accordion-item" style="background-color: #020e23;">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne" style="background-color: #020e23;">
+                Liquida tubos flexibles
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <img src="Imagenes/1724-corsair-hydro-x-cabecera.jpg" style="width: 20rem" alt=""><br>
+                <p class="coloro">La forma más "sencilla y economica" para tener un estilo unico en su equipo siendo tambien "facil" su instalacion y tiene una gran adapatacion ya que debido a sus caracteristacas, hay muy pocos inconvenientes a la hora no solo de limpiar, ni intercambiar el liquido sino tambien mantiene sencillo el cambio de hardware o actualizacion de este.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo" style="background-color: #020e23;">
+                Liquida tubos rigidos
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <img src="Imagenes/watercooling-custom-corsair-hydro-x-setup.webp" style="width: 20rem" alt=""><br>
+                <p class="coloro">Es complicado su instalacion en especial si no se tiene practica, aparte debe medirse bien para no tener inconvenientes a la hora de montarlas. Todos los cortes y/o codos se deben hacer a mano y depndiendo del material que se quiera puede costar más o menos, como tambien tiene la desventaja de que para cabiar algun componente se debe vaciar todo el liquido o incluso desmontarlo dependiendo del cambio a realizar. Fuera de eso la ventaja es que puede soportar mayor cantidad de liquido y da un aspecto muy llamativo para la torre dando una estetica y refrigerecion unica.</p>
+              </div>
+            </div>
+          </div>
+       </div>
+      </div>
+     <!--end acordion-->
+    <div class="container" id="Pie">
         <footer>
+          <div>
+            <a href="index.html">Inicio</a>
+            <a href="Paginas/Hardware.html">Hardware</a>
+            <a href="Paginas/Contacto.html">Contacto</a>
+            <a href="">Inicio de Sesión</a>
+            <a href="Paginas/Registro.html">Registrarse</a>
+          </div>
         </footer>
     </div>
 </div>
