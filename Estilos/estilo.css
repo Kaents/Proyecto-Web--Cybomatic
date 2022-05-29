@@ -1,4 +1,4 @@
-body{background-color: #020e23; margin-bottom: 3.5%; margin-left: 3.5%; margin-right: 3.5%;}
+body{background-color:#020e23 ; margin-bottom: 3.5%; margin-left: 3.5%; margin-right: 3.5%;}
 h1{color: #4f7ef6; font-weight: bolder;} 
 h2{color: #4f7ef6; font-family: Arial, Helvetica;  font-weight: bolder} 
 h3{color: #4f9bf8; font-family: Arial, Helvetica;  font-weight: bolder}
@@ -7,8 +7,9 @@ h5{color: #1c70c6; font-family: Arial, Helvetica;  font-family: border}
 p{color: white; font-family: Arial, Helvetica; font-weight: bolder}
 a{color: #4f7ef6;}
 .coloro {color: #50b8fb;}
+#header {margin-left: -50; margin-right: -50;}
+#Pie{margin-left: -50; margin-right: -50; background-color: #020e23;}
 #Granimgen {text-align: center;}
-#Pie{background-color: #020e23;}
 #genera{color: #50b8fb;}
 #armado{display: flex;}
 #navbarSupportedContent {flex-grow: 0.5;}
