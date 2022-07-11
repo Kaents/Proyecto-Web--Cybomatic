@@ -57,7 +57,7 @@
         <div class="row">
           <div class="col" style="background-color: #020e23; margin-bottom: 25px;">
            <h2>Ingrese sus Datos</h2>
-            <form action="" >
+            <form action="" class="" method="POST" onsubmit="return validardatos2()" >
               <div>
                 <label for="nombre">Nombre*</label>
                 <input type="text" name="nombre" id="nombre" placeholder="Ingrese su primer nombre" required autofocus><br><br>
@@ -510,27 +510,6 @@
         </footer>
     </div>
 </body>
-<script>
-  function validardatos2 () {
-    nombre = document.getElementById("nombre").value
-    apellido = document.getElementById("apellido").value
-    rut = document.getElementById("rut").value
-    celular = document.getElementById("celular").value
-    direccion = document.getElementById("dirección").value
-    contraseña = document.getElementById("contraseña").value
-    confcontraseña = document.getElementById("pasw1").value
-    mensaje = "nombre:" + nombre + "apellido:" + apellido + "rut:" + rut + "celular:" + celular + "dirección:" + dirección + "contraseña:" + contraseña + "pasw1:" + pasw1
-    alert(nombre.length)
-    if(nombre.length <3){
-      document.getElementById("errorNombre").style.display="block"
-      return false
-    }else{
-      document.getElementById("errorNombre").style.display="none"
-      return true
-    }
-    console.log(mensaje)
-  }
-</script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </html>
