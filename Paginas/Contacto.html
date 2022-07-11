@@ -58,18 +58,34 @@
         <div class="row">
           <div class="col" style="background-color: #020e23; margin-bottom: 25px;">
             <h3>Envianos tu consulta</h3>
-            <form action="">
+            <form action="" class="" method="POST" onsubmit="return validarDatos()">
+              <div class="form-group" >
                 <label for="nombre">Nombre:</label><br>
                 <input type="text" name="nombre" id="nombre" placeholder="Ingrese su primer nombre" required autofocus><br><br>
+                <p class="text-danger" style="display:none" id="errorNombre">El largo del nombre debe ser superior a 3</p>
+              </div>
+              <div class="form-group">
                 <label for="apellido">Apellido:</label><br>
                 <input type="text" name="apellido" id="apellido" placeholder="Ingrese sus apellidos" required><br><br>
+                <p class="text-danger" style="display:none" id="errorApellido">El largo del nombre debe ser superior a 5</p>
+              </div>
+              <div class="form-group">
                 <label for="email">E-mail:</label><br>
                 <input type="email" name="email" id="email" placeholder="Ingrese su e-mail" required><br><br>
+                <p class="text-danger" style="display:none" id="errormail">Debe ingresar un e-mail</p>
+              </div>
+              <div class="form-group">
                 <label for="celular">Celular:</label><br>
                 <input type="tel" name="celular" id="celular" placeholder="Ingrese su número celular" required><br><br>
+                <p class="text-danger" style="display:none" id="errorcelular">Ingrese un numero</p>
+              </div class="form-group">
+              <div class="form-group">
                 <label for="consulta">Consulta</label><br>
                 <textarea name="consulta" id="consulta" cols="40" rows="10" placeholder="Ingrese su consulta:"></textarea><br>
-                <input type="submit" value="Enviar">
+              </div>
+              <div class="" id="box-send">
+                  <button class="btn btn-secondary w-100 pageclip-form__submit" id="btn-enviar" type="submit" >Enviar</button>
+              </div>
             </form>
          </div>
         </div>
@@ -92,5 +108,6 @@
       </footer>
     </div>
 </body>
-
+<script src="../Estilos/validardatos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </html>
