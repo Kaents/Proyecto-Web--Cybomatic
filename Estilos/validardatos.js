@@ -30,7 +30,7 @@ function validarDatos() {
       icon: 'error',
       title: 'Oops...',
       text: 'Campos invalidos errores detectados: '+errores,
-      footer: '<a href="">Why do I have this issue?</a>'
+      footer: '<a href="">Por qué no estan correctos?</a>'
   })
   return false
   }else{
