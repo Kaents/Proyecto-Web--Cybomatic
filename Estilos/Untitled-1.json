@@ -1,0 +1,352 @@
+[
+    {
+     "createdAt": 74819,
+     "TajetasGraficas": "TajetasGraficas 1",
+     "Imagen": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/91.jpg",
+     "Precio": "612.00",
+     "id": "1"
+    },
+    {
+     "createdAt": 92073,
+     "TajetasGraficas": "TajetasGraficas 2",
+     "Imagen": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/946.jpg",
+     "Precio": "5.00",
+     "id": "2"
+    },
+    {
+     "createdAt": 78064,
+     "TajetasGraficas": "TajetasGraficas 3",
+     "Imagen": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/108.jpg",
+     "Precio": "175.00",
+     "id": "3"
+    },
+    {
+     "createdAt": 70523,
+     "TajetasGraficas": "TajetasGraficas 4",
+     "Imagen": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/183.jpg",
+     "Precio": "833.00",
+     "id": "4"
+    },
+    {
+     "createdAt": 15800,
+     "TajetasGraficas": "TajetasGraficas 5",
+     "Imagen": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/767.jpg",
+     "Precio": "467.00",
+     "id": "5"
+    },
+    {
+     "createdAt": 14221,
+     "TajetasGraficas": "TajetasGraficas 6",
+     "Imagen": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/73.jpg",
+     "Precio": "524.00",
+     "id": "6"
+    },
+    {
+     "createdAt": 6010,
+     "TajetasGraficas": "TajetasGraficas 7",
+     "Imagen": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/741.jpg",
+     "Precio": "425.00",
+     "id": "7"
+    },
+    {
+     "createdAt": 23840,
+     "TajetasGraficas": "TajetasGraficas 8",
+     "Imagen": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/842.jpg",
+     "Precio": "928.00",
+     "id": "8"
+    },
+    {
+     "createdAt": 55762,
+     "TajetasGraficas": "TajetasGraficas 9",
+     "Imagen": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/818.jpg",
+     "Precio": "130.00",
+     "id": "9"
+    },
+    {
+     "createdAt": 3334,
+     "TajetasGraficas": "TajetasGraficas 10",
+     "Imagen": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/506.jpg",
+     "Precio": "374.00",
+     "id": "10"
+    },
+    {
+     "createdAt": 45094,
+     "TajetasGraficas": "TajetasGraficas 11",
+     "Imagen": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/168.jpg",
+     "Precio": "220.00",
+     "id": "11"
+    },
+    {
+     "createdAt": 98850,
+     "TajetasGraficas": "TajetasGraficas 12",
+     "Imagen": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/209.jpg",
+     "Precio": "871.00",
+     "id": "12"
+    },
+    {
+     "createdAt": 98797,
+     "TajetasGraficas": "TajetasGraficas 13",
+     "Imagen": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/847.jpg",
+     "Precio": "553.00",
+     "id": "13"
+    },
+    {
+     "createdAt": 86520,
+     "TajetasGraficas": "TajetasGraficas 14",
+     "Imagen": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/425.jpg",
+     "Precio": "210.00",
+     "id": "14"
+    },
+    {
+     "createdAt": 38235,
+     "TajetasGraficas": "TajetasGraficas 15",
+     "Imagen": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/243.jpg",
+     "Precio": "309.00",
+     "id": "15"
+    },
+    {
+     "createdAt": 72487,
+     "TajetasGraficas": "TajetasGraficas 16",
+     "Imagen": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/112.jpg",
+     "Precio": "314.00",
+     "id": "16"
+    },
+    {
+     "createdAt": 48721,
+     "TajetasGraficas": "TajetasGraficas 17",
+     "Imagen": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/164.jpg",
+     "Precio": "558.00",
+     "id": "17"
+    },
+    {
+     "createdAt": 95155,
+     "TajetasGraficas": "TajetasGraficas 18",
+     "Imagen": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/266.jpg",
+     "Precio": "874.00",
+     "id": "18"
+    },
+    {
+     "createdAt": 82735,
+     "TajetasGraficas": "TajetasGraficas 19",
+     "Imagen": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1011.jpg",
+     "Precio": "508.00",
+     "id": "19"
+    },
+    {
+     "createdAt": 3049,
+     "TajetasGraficas": "TajetasGraficas 20",
+     "Imagen": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/573.jpg",
+     "Precio": "945.00",
+     "id": "20"
+    },
+    {
+     "createdAt": 89464,
+     "TajetasGraficas": "TajetasGraficas 21",
+     "Imagen": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/766.jpg",
+     "Precio": "810.00",
+     "id": "21"
+    },
+    {
+     "createdAt": 79910,
+     "TajetasGraficas": "TajetasGraficas 22",
+     "Imagen": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/461.jpg",
+     "Precio": "962.00",
+     "id": "22"
+    },
+    {
+     "createdAt": 66262,
+     "TajetasGraficas": "TajetasGraficas 23",
+     "Imagen": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/871.jpg",
+     "Precio": "274.00",
+     "id": "23"
+    },
+    {
+     "createdAt": 39082,
+     "TajetasGraficas": "TajetasGraficas 24",
+     "Imagen": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/935.jpg",
+     "Precio": "239.00",
+     "id": "24"
+    },
+    {
+     "createdAt": 46490,
+     "TajetasGraficas": "TajetasGraficas 25",
+     "Imagen": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/672.jpg",
+     "Precio": "908.00",
+     "id": "25"
+    },
+    {
+     "createdAt": 32534,
+     "TajetasGraficas": "TajetasGraficas 26",
+     "Imagen": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/891.jpg",
+     "Precio": "771.00",
+     "id": "26"
+    },
+    {
+     "createdAt": 75079,
+     "TajetasGraficas": "TajetasGraficas 27",
+     "Imagen": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/718.jpg",
+     "Precio": "796.00",
+     "id": "27"
+    },
+    {
+     "createdAt": 95484,
+     "TajetasGraficas": "TajetasGraficas 28",
+     "Imagen": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1241.jpg",
+     "Precio": "471.00",
+     "id": "28"
+    },
+    {
+     "createdAt": 1353,
+     "TajetasGraficas": "TajetasGraficas 29",
+     "Imagen": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/724.jpg",
+     "Precio": "295.00",
+     "id": "29"
+    },
+    {
+     "createdAt": 4675,
+     "TajetasGraficas": "TajetasGraficas 30",
+     "Imagen": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/725.jpg",
+     "Precio": "945.00",
+     "id": "30"
+    },
+    {
+     "createdAt": 65134,
+     "TajetasGraficas": "TajetasGraficas 31",
+     "Imagen": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1217.jpg",
+     "Precio": "488.00",
+     "id": "31"
+    },
+    {
+     "createdAt": 48601,
+     "TajetasGraficas": "TajetasGraficas 32",
+     "Imagen": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/765.jpg",
+     "Precio": "8.00",
+     "id": "32"
+    },
+    {
+     "createdAt": 43834,
+     "TajetasGraficas": "TajetasGraficas 33",
+     "Imagen": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/922.jpg",
+     "Precio": "17.00",
+     "id": "33"
+    },
+    {
+     "createdAt": 60045,
+     "TajetasGraficas": "TajetasGraficas 34",
+     "Imagen": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/395.jpg",
+     "Precio": "966.00",
+     "id": "34"
+    },
+    {
+     "createdAt": 85798,
+     "TajetasGraficas": "TajetasGraficas 35",
+     "Imagen": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1067.jpg",
+     "Precio": "940.00",
+     "id": "35"
+    },
+    {
+     "createdAt": 59193,
+     "TajetasGraficas": "TajetasGraficas 36",
+     "Imagen": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/529.jpg",
+     "Precio": "713.00",
+     "id": "36"
+    },
+    {
+     "createdAt": 45754,
+     "TajetasGraficas": "TajetasGraficas 37",
+     "Imagen": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1129.jpg",
+     "Precio": "391.00",
+     "id": "37"
+    },
+    {
+     "createdAt": 55623,
+     "TajetasGraficas": "TajetasGraficas 38",
+     "Imagen": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1204.jpg",
+     "Precio": "702.00",
+     "id": "38"
+    },
+    {
+     "createdAt": 92646,
+     "TajetasGraficas": "TajetasGraficas 39",
+     "Imagen": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/292.jpg",
+     "Precio": "733.00",
+     "id": "39"
+    },
+    {
+     "createdAt": 61932,
+     "TajetasGraficas": "TajetasGraficas 40",
+     "Imagen": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1015.jpg",
+     "Precio": "621.00",
+     "id": "40"
+    },
+    {
+     "createdAt": 74122,
+     "TajetasGraficas": "TajetasGraficas 41",
+     "Imagen": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/984.jpg",
+     "Precio": "37.00",
+     "id": "41"
+    },
+    {
+     "createdAt": 81013,
+     "TajetasGraficas": "TajetasGraficas 42",
+     "Imagen": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/604.jpg",
+     "Precio": "690.00",
+     "id": "42"
+    },
+    {
+     "createdAt": 93476,
+     "TajetasGraficas": "TajetasGraficas 43",
+     "Imagen": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/883.jpg",
+     "Precio": "327.00",
+     "id": "43"
+    },
+    {
+     "createdAt": 48774,
+     "TajetasGraficas": "TajetasGraficas 44",
+     "Imagen": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/209.jpg",
+     "Precio": "424.00",
+     "id": "44"
+    },
+    {
+     "createdAt": 63024,
+     "TajetasGraficas": "TajetasGraficas 45",
+     "Imagen": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/578.jpg",
+     "Precio": "634.00",
+     "id": "45"
+    },
+    {
+     "createdAt": 23803,
+     "TajetasGraficas": "TajetasGraficas 46",
+     "Imagen": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1175.jpg",
+     "Precio": "515.00",
+     "id": "46"
+    },
+    {
+     "createdAt": 51170,
+     "TajetasGraficas": "TajetasGraficas 47",
+     "Imagen": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1076.jpg",
+     "Precio": "39.00",
+     "id": "47"
+    },
+    {
+     "createdAt": 89359,
+     "TajetasGraficas": "TajetasGraficas 48",
+     "Imagen": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/840.jpg",
+     "Precio": "632.00",
+     "id": "48"
+    },
+    {
+     "createdAt": 95777,
+     "TajetasGraficas": "TajetasGraficas 49",
+     "Imagen": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/735.jpg",
+     "Precio": "695.00",
+     "id": "49"
+    },
+    {
+     "createdAt": 56663,
+     "TajetasGraficas": "TajetasGraficas 50",
+     "Imagen": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1041.jpg",
+     "Precio": "168.00",
+     "id": "50"
+    }
+   ]
